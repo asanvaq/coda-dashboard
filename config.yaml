@@ -5,8 +5,7 @@ repositories:
   - owner: canonical
     repo: ulwazi
     labels:
-      - documentation
-      - bug
+      - coda
     maintainer(s):
       name: Vladimir Izmalkov
       github: izmalk
@@ -37,11 +36,11 @@ repositories:
   - owner: canonical
     repo: chisel-docs
     labels:
-      - documentation
+      - Documentation
     maintainer(s):
       name: Anna Sancho Vaquer
       github: asanvaq
-    contributor guide:
+    contributor guide: 
 
   - owner: canonical
     repo: robotics_documentation
@@ -60,3 +59,10 @@ repositories:
       name: Anna Sancho Vaquer
       github: asanvaq
     contributor guide:
+    repo: launchpad-manual
+    labels:
+      - coda
+    maintainer(s):
+      - name: Charles Odada
+        github: odadacharles
+        contributor guide: https://ubuntu.com/docs/launchpad/contribute-to-our-docs/
